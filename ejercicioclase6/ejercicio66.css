@@ -8,7 +8,9 @@
 
     body{
         background-image: url(bg-palm.jpg);
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 .arriba{
