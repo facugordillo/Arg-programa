@@ -46,6 +46,7 @@
 
 }
 
+
 .boton button{
     background-color: rgb(196, 196, 219);
     height: 100%;
@@ -77,7 +78,8 @@
 
 .la-check-circle{
     color: green;
-    
+    scale: 1.8;
+        
 }
 
 .abajo .la-facebook-f:hover{
