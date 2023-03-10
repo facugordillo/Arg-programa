@@ -50,17 +50,20 @@
     text-transform: uppercase;
     transition: all 0.2s;
     opacity: 0.7;
+    text-align: center;
 
 }
 
-.boton button i{
-    position: absolute;
-    left: 20px;
-}
+ .boton button i{
+    position: relative;
+    left: -120px;
+} 
 
 .boton button:hover{
     transform: scale(1.1);
 }
+
+
 .abajo a{
     padding: 40px;
     font-size: 40px;
