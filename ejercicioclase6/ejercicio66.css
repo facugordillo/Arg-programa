@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+    body{
+        background-image: url(bg-palm.jpg);
+        text-align: center;
+    }
+
+.arriba{
+    background-color: brown;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.botones{
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    border: solid black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+
+}
+
+.boton{
+    color: white;
+    background-color: rgb(228, 25, 59);
+    text-align: center;
+    margin: 10px;
+    height: 40px;
+
+}
+
+.boton button{
+    background-color: rgb(196, 196, 219);
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+
+}
+
+.boton button:hover{
+    transform: scale(1.1);
+}
+.abajo a{
+    padding: 40px;
+    font-size: 40px;
+    color: black;
+      
+}
+
+.abajo{
+    background-color: chartreuse;
+    width: 400px;
+    height: auto;
+    margin-top: 100px;
+    transition: all 0.2s;
+
+}
+
+.la-check-circle{
+    color: green;
+    
+}
+
+.abajo .la-facebook-f:hover{
+    transform: scale(1.2);
+}
+
+.abajo .la-twitter:hover{
+    transform: scale(1.2);
+}
+
+.abajo .la-linkedin-in:hover{
+    transform: scale(1.2);
+}
