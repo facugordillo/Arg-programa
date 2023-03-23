@@ -7,7 +7,7 @@
 }
 
     body{
-        background-image: url(bg-palm.jpg);
+        background-image: url(../images/bg-palm.jpg);
         display: flex;
         flex-direction: column;
         align-items: center;
